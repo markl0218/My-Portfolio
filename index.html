@@ -3,31 +3,66 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mark's Portfolio</title>
     <link rel= "stylesheet" href= "stylesheet.css">
 </head>
 
 <body>
-   
-    <header>Mark Lopez</header>
-    
-    
-
-    <div>
-        <h1>About Me</h1> 
-            <p>
-                I am a Web Developement student at the UTSA Coding Boot Camp. 
+   <!--header contains name, avatar, and links in nav bar-->
+    <header class= "header">
+        <h1>Mark Lopez</h1>
+        <img id= "avatar" src= https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png>
+        <div class= "nav ul">
+            <ul>
+                <li>
+                     <a href= "#about-me">About Me</a>
+                </li>
+                <li> 
+                     <a href= "#my-work">My Work</a>
+                </li>
+                <li> 
+                     <a href= "#contact-me">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!--about me section-->
+    <div class= about-me-section>
+        <h1 id= "h1-1">About Me</h1> 
+            <p a id="about-me">I am a Web Developement student at the UTSA Coding Boot Camp.<br>
+                I enjoy hiking, swimming, and video games. My goal is to become a professional<br>
+                Web Developer and make a career in the industry.
             </p>
-        
     </div>
-
+    <!--my work sections-->
     <div>
-        <h1>My Work</h1>
-            <img class= "img-1" src= "http://via.placeholder.com/640x360"/>
-            <img class= "img-2" src= "http://via.placeholder.com/300x200"/>
-            <img class= "img 3" src= "http://via.placeholder.com/300x200"/>
-            <img class= "img 4" src= "http://via.placeholder.com/300x200"/>
-        
+        <h1 id= "h1-2">My Work</h1>  
     </div>
+    <!--added links and alt attributes to images-->
+    <div class= "container" a id="my-work"> 
+        <a href= https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5 target="_blank" alt= "HTML5">
+        <img id= "img1" src= "https://www.diygenius.com/wp-content/uploads/2013/07/learn-html5.jpg"/></a>
+        <a href= "https://developer.mozilla.org/en-US/docs/Web/CSS" target= "_blank" alt= "CSS3">
+        <img class= "img" src= "https://colorlib.com/wp/wp-content/uploads/sites/2/creative-css3-tutorials.jpg"/></a>
+        <a href= "https://developer.mozilla.org/en-US/docs/Web/JavaScript" target= "_blank" alt= "JavaScript">
+        <img class= "img" src= "https://www.pragimtech.com/wp-content/uploads/2019/03/java-script.jpg"></a>
+    </div>
+<!--footer sections containing contact info-->
+<footer>
+    <h1 id= "h1-3">Contact Me</h1>
+    <ul a id="contact-me">
+        <li>
+            mark_lopez@icloud.com
+        </li>
+        <li>
+            (210)238-4368
+        </li>
+        <li> 
+            <a href= https://www.linkedin.com/in/mark-lopez-9b6b91207>LinkedIn</a>
+        </li>
+    </ul>
+</footer>
+            
 </body>
 </html>

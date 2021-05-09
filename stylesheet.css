@@ -1,33 +1,94 @@
-header {
-    font-size: 60px;
-    padding: 50px;
-    margin-top: 2%;
-    margin-left: -3%;
+.header {
+    padding: 4px;
     background-color: rgb(100, 123, 146);
     font-family: Montserrat, sans-serif;
     font-weight: lighter;
 }
 
+#avatar{
+    width: 125px;
+    height: 125px;
+    margin-left: 5%;
+}
+/* adding style to name in header*/
+.header h1{
+    font-size: 40px;
+    margin-left: 2%;
+}
+/* aligned links in nav bar to the right of the screen*/
+.nav ul{
+    text-align: right;
+}
+/* removes dots before list item and positions them horizontally*/
+li{
+    list-style-type: none;
+    display: inline;
+    
 
-h1 {
-    margin-top: 20%;
-    margin-left: 20%;
+}
+/* added styling to about me h1*/
+#h1-1 {
+    margin-top: 25%;
+    margin-left: 25%;
     font-family: Montserrat, sans-serif;
     font-weight: lighter;
 }
-
+/* added styling to my work h1*/
+#h1-2{
+    margin-top: 30%;
+    margin-left: 25%;
+    font-family: Montserrat, sans-serif;
+    font-weight: lighter;
+} 
+/* added styling to contact me h1*/
+#h1-3{
+    margin-left: 3%;
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    font-weight: lighter;
+}
+/* adds styling to paragraph tag*/
 p {
     font-size: 15px;
-    margin-left: 40%;
-    margin-top: -10%;
+    margin-left: 45%;
+    margin-top: -2%;
     font-family: Montserrat, sans-serif;
     font-weight: lighter;
 }
-
-.img-1 {
-    margin-left: 40%;
-    margin-top: -10%;
+/* puts images in container and allows them to adjust to device width*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 45%;
+    margin-bottom: 15%;
+}
+/* resize images */
+.img{
+    margin: 0.5%;
+    flex-shrink: 1;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
 }
 
-.image-2
+#img1{
+    width: 600px;
+    height: 300px;
+    margin: 0.5%;
+    margin-left: 1%;
+    min-width: 300px;
+}
+
+.about-me-section{
+    margin-top: 20%;
+    display: inline;
+    flex-wrap: wrap;
+}
+
+footer{
+    padding: 2px;
+    background-color: rgb(100, 123, 146);
+    text-align: center;
+}
+
 
